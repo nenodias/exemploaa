@@ -27,6 +27,10 @@
 		</activity>
 		<activity android:name=".OptionsMenuAAActivity_">
 		</activity>
+		<activity android:name=".ParametrosNormalActivity">
+		</activity>
+		<activity android:name=".ParametrosAAActivity_">
+		</activity>
 	</application>
 
 </manifest>

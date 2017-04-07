@@ -41,4 +41,20 @@ public class MainActivity extends AppCompatActivity {
 	void buttonOptionsMenuAAOnClick() {
 		OptionsMenuAAActivity_.intent(this).start();
 	}
+
+	@Click(R.id.buttonParametrosNormal)
+	void buttonParametrosNormalOnClick() {
+		Intent intent = new Intent(this, ParametrosNormalActivity.class);
+		intent.putExtra("valorNumerico", 84.123f);
+		intent.putExtra("valorTexto", "Flisol");
+		startActivity(intent);
+	}
+
+	@Click(R.id.buttonParametrosAA)
+	void buttonParametrosAAOnClick() {
+		ParametrosAAActivity_.intent(this)
+				.parametroValorNumerico(84.123f)
+				.parametroValorTexto("Flisol")
+				.start();
+	}
 }

@@ -49,5 +49,17 @@
 			android:layout_height="wrap_content"
 			android:layout_marginTop="10dp"
 			android:text="Options menu com Android Annotations"/>
+		<Button
+			android:id="@+id/buttonParametrosNormal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:text="Passando parâmetros normal"/>
+		<Button
+			android:id="@+id/buttonParametrosAA"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:text="Passando parâmetros com Android Annotations"/>
 	</LinearLayout>
 </ScrollView>
